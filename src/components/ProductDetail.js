@@ -6,7 +6,6 @@ const ProductDetail = ({ product }) => {
   };
   return(
     <div className="ProductDetail">
-      <image></image>
       Product Detail
       {product.description}
 

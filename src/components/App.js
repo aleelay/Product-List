@@ -10,9 +10,6 @@ class App extends React.Component{
 
   onProductSelect = (product) => {
     this.setState({selectedProduct: product})
-    console.log(product.productName)
-    console.log("here onProductSelect");
-    console.log("State: ", this.state.selectedProduct);
   };
 
   render(){

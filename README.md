@@ -1,5 +1,5 @@
 ## Product List
-THis project shows a Product List and the Detail of each Product.
+THis project shows a Product List and the Detail of each Product.<br />
 Link on Netlify: https://musing-boyd-c5b51c.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

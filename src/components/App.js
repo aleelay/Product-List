@@ -1,6 +1,7 @@
 import React from 'react';
 import ListProduct from './ListProduct';
 import ProductDetail from './ProductDetail';
+import './ProductList.css';
 
 
 class App extends React.Component{
@@ -16,10 +17,18 @@ class App extends React.Component{
     
 
     return(
-      <div>
-        App
-        <ListProduct onProductSelect={this.onProductSelect}/>
-        <ProductDetail product={this.state.selectedProduct} />
+      <div className="ProductList">
+        <h4 className="title">Product List</h4>
+        <div className="list-container">
+          <div className="list-item">
+            <ListProduct onProductSelect={this.onProductSelect}/>
+          </div>
+          <div className="list-item">
+            <ProductDetail product={this.state.selectedProduct} />
+          </div>
+        </div>
+        
+        
       </div>
     );
   }

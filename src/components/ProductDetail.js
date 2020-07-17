@@ -6,8 +6,13 @@ const ProductDetail = ({ product }) => {
   };
   return(
     <div className="ProductDetail">
-      Product Detail
-      {product.description}
+      
+      
+      <div className="product-name">{product.productName}</div>
+      <span className="product-price">${product.price}</span>
+      <p>{product.description}</p>
+      
+      
 
     </div>
   );

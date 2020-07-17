@@ -8,7 +8,10 @@ const ListProduct = ({onProductSelect}) => {
   });
 
   return(
-  <div>{products}</div>
+  <div>
+    {products}
+    
+  </div>
   );
 
 }
